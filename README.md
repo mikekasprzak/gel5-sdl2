@@ -1,7 +1,7 @@
-# GEL5 - Native C/C++ Port (using SDL2)
-C/C++ version of GEL5, the 5th generation version of GEL (Game Engine Library).
+# GEL5 - Native C/C++ Runtime (using SDL2 and OpenGL)
+C/C++ runtime for GEL5, the 5th generation version of GEL (Game Engine Library).
 
-See https://github.com/povrazor/gel5-html for the native HTML port.
+See https://github.com/povrazor/gel5-html for the native HTML runtime.
 
 # About GEL
 GEL began XX years ago as a general purpose library of elements used for creating games. From rendering, to collision detection, to physics, to UI and audio playback. Much later, a spinoff library gelHTML was made for experimenting with HTML5 projects (https://github.com/povrazor/gelhtml-2011). GEL is also closely related to Quack, an engine and library that exposes 2D and 3D game making primitives via the Squirrel programming language (similar to JavaScript).
