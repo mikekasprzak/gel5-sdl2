@@ -1,4 +1,3 @@
-
 SRC_FILES		:=	runtime/main.cpp
 
 OUT_DIR			:=	output
@@ -13,8 +12,7 @@ V8_OBJ			:=	$(V8_DIR)/out/x64.release/obj.target
 BIN_FILES		:=	$(wildcard $(V8_DIR)/out/x64.release/*.bin)
 OUT_BIN_FILES	:=	$(addprefix $(OUT_DIR)/, $(notdir $(BIN_FILES)))
 
-LIBS			:=	\
-					$(V8_OBJ)/src/libv8_base.a \
+LIBS			:=	$(V8_OBJ)/src/libv8_base.a \
 					$(V8_OBJ)/src/libv8_libbase.a \
 					$(V8_OBJ)/src/libv8_external_snapshot.a \
 					$(V8_OBJ)/src/libv8_libplatform.a \

@@ -30,7 +30,7 @@ int main(int argc, char* argv[]) {
 		// Enter the context for compiling and running the hello world script.
 		Context::Scope context_scope(context);
 		// Create a string containing the JavaScript source code.
-		Local<String> source = String::NewFromUtf8(isolate, "'Hello' + ', World!'", NewStringType::kNormal).ToLocalChecked();
+		Local<String> source = String::NewFromUtf8(isolate, "'Hello' + ', World! ' + (10*10);", NewStringType::kNormal).ToLocalChecked();
 		// Compile the source code.
 		Local<Script> script = Script::Compile(context, source).ToLocalChecked();
 		// Run the script to get the result.
